@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AppSec Nightmare</title>
+  <meta name="description" content="AppSec Nightmare is a 3-day secure development intervention. No slides. No theater. Real fixes for insecure pipelines." />
+  <meta name="keywords" content="AppSec, Application Security, DevSecOps, Secure SDLC, CI/CD Security, Secure Development, AppSec Consulting" />
+  <meta name="author" content="Cássio Batista Pereira" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="AppSec Nightmare" />
+  <meta property="og:description" content="A brutal 3-day AppSec intervention. Diagnose, confront and fix insecure software delivery." />
+  <meta property="og:url" content="https://cassiodeveloper.com.br/appsec-nightmare/" />
+  <meta property="og:image" content="https://appsecnightmare.com/img/logo.png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="AppSec Nightmare" />
+  <meta name="twitter:description" content="No slides. No excuses. Secure delivery or reality check." />
+  <meta name="twitter:image" content="https://appsecnightmare.com/img/logo.png" />
+
+  <link rel="canonical" href="https://cassiodeveloper.com.br/appsec-nightmare/" />
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "AppSec Nightmare",
+      "description": "A 3-day secure development intervention. Day 1: assessment (autopsy). Day 2: targeted training (confrontation). Day 3: implement and validate improvements (fix).",
+      "serviceType": "Application Security Consulting",
+      "areaServed": "Worldwide",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Software development teams shipping to production"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "AppSec Nightmare Offers",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Company Intervention",
+            "description": "3-day intervention for product teams: assess, train, implement and validate security improvements.",
+            "availability": "https://schema.org/InStock"
+          },
+          {
+            "@type": "Offer",
+            "name": "Event / Workshop Edition",
+            "description": "Workshop edition for events, includes live diagnosis segment and actionable remediation plan.",
+            "availability": "https://schema.org/InStock"
+          }
+        ]
+      }
+    }
+  </script>
+
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <span>AppSec</span><span class="accent">Nightmare</span>
+    <span class="pill"><span class="dot"></span><span data-i18n="nav.tag">3-day intervention</span></span>
+  </div>
+
+  <nav class="nav">
+    <a href="#what" data-i18n="nav.what">What</a>
+    <a href="#days" data-i18n="nav.days">3 days</a>
+    <a href="#statements" data-i18n="nav.statements">Statements</a>
+    <a href="#leave" data-i18n="nav.leave">Outcomes</a>
+    <a href="#cta" data-i18n="nav.cta">Book</a>
+
+    <div class="lang" aria-label="Language toggle">
+      <button id="btnEN" class="active" type="button">EN</button>
+      <button id="btnPT" type="button">PT</button>
+    </div>
+  </nav>
+</header>
+
+<section id="top">
+  <div class="kicker" data-i18n="hero.kicker">Reality-first secure delivery</div>
+  <h1>
+    <span data-i18n="hero.titleA">AppSec</span>
+    <span class="accent" data-i18n="hero.titleB">Nightmare</span>
+  </h1>
+  <p class="big" data-i18n="hero.subtitle">A 3-day secure development intervention. No slides. No excuses. Real fixes.</p>
+</section>
+
+<section id="what">
+  <h2 data-i18n="what.title">What it is</h2>
+  <p class="big" data-i18n="what.body">This is not a maturity model, a framework rollout, or a checkbox exercise. It's a controlled collision with reality for teams shipping insecure software without noticing.</p>
+  <p data-i18n="what.small">We focus on what runs: SDLC as practiced, CI/CD as configured, and risk as experienced in production.</p>
+</section>
+
+<section id="days">
+  <h2 data-i18n="days.title">The 3 Days</h2>
+  <p class="big" data-i18n="days.subtitle">Three moves: diagnose, reprogram, fix. Everything tied to your stack and your pipeline.</p>
+
+  <div class="days">
+    <div class="day">
+      <span data-i18n="days.d1.k">Day 1</span>
+      <h3 data-i18n="days.d1.t">The Autopsy</h3>
+      <p data-i18n="days.d1.b">We dissect your SDLC, pipeline, code and decisions. What is written is ignored. What runs is analyzed.</p>
+    </div>
+    <div class="day">
+      <span data-i18n="days.d2.k">Day 2</span>
+      <h3 data-i18n="days.d2.t">The Confrontation</h3>
+      <p data-i18n="days.d2.b">Targeted training based on real failures. Secure coding, threat modeling and AppSec mechanics applied to your system.</p>
+    </div>
+    <div class="day">
+      <span data-i18n="days.d3.k">Day 3</span>
+      <h3 data-i18n="days.d3.t">The Fix</h3>
+      <p data-i18n="days.d3.b">Pipelines adjusted. Rules defined. Flows implemented. Everything validated in CI, not in theory.</p>
+    </div>
+  </div>
+</section>
+
+<section id="statements">
+  <h2 data-i18n="statements.title">Statements</h2>
+  <p class="big" data-i18n="statements.subtitle">Quick truths your pipeline won't tell you. Shuffle until it hurts.</p>
+
+  <div class="statements">
+    <div class="panel">
+      <div id="quote" class="quote">If it doesn’t run in CI, it doesn’t exist.</div>
+    </div>
+
+    <div class="controls">
+      <button id="shuffle" class="btn" type="button" data-i18n="statements.shuffle">Shuffle</button>
+      <button id="auto" class="btn" type="button" data-i18n="statements.auto">Auto: Off</button>
+      <div class="hint" data-i18n="statements.hint">Use this section in internal comms. It’s free. Your excuses aren’t.</div>
+    </div>
+  </div>
+</section>
+
+<section id="leave">
+  <h2 data-i18n="leave.title">What you leave with</h2>
+  <p class="big" data-i18n="leave.body">A working security baseline, a prioritized survival backlog, and a team capable of not recreating the nightmare next sprint.</p>
+  <p data-i18n="leave.small">Deliverables are short, actionable, and built to outlive the engagement.</p>
+</section>
+
+<section id="cta">
+  <h2 data-i18n="cta.title">Choose your path</h2>
+  <p class="big" data-i18n="cta.subtitle">Company intervention for product teams. Workshop edition for events. Same brutality, different packaging.</p>
+
+  <div class="cta">
+    <a href="mailto:cassio@cassiobp.com.br" title="Intervenção na empresa" target="_blank" id="ctaCompany">
+      <span data-i18n="cta.company">Company Intervention</span>
+      <span class="micro" data-i18n="cta.companyMicro">Reply in 48h • Scoped in minutes</span>
+    </a>
+
+    <a href="mailto:cassio@cassiobp.com.br" title="Evento / Workshop" target="_blank" id="ctaEvent">
+      <span data-i18n="cta.event">Event / Workshop Edition</span>
+      <span class="micro" data-i18n="cta.eventMicro">Format-ready • Live diagnosis included</span>
+    </a>
+  </div>
+</section>
+
+<footer>
+  <div>AppSec Nightmare © <span data-i18n="footer.tag">Reality-first AppSec intervention</span></div>
+  <div>By <a href="https://www.cassiodeveloper.com.br" target="_blank" title="Cássio B. Pereira">Cássio B. Pereira a.k.a. @cassiodeveloper</a></div>
+  <div><span data-i18n="footer.note">Want this in your brand? Easy. Reality stays.</span></div>
+</footer>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
