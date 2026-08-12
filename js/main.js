@@ -6,6 +6,8 @@
       "nav.days": "3 days",
       "nav.statements": "Statements",
       "nav.leave": "Outcomes",
+      "nav.start": "How it starts",
+      "nav.price": "Price",
       "nav.cta": "Book",
 
       "hero.kicker": "Reality-first secure delivery",
@@ -39,12 +41,31 @@
       "leave.body": "A working security baseline, a prioritized survival backlog, and a team capable of not recreating the nightmare next sprint.",
       "leave.small": "Deliverables are short, actionable, and built to outlive the engagement.",
 
-      "cta.title": "Choose your path",
-      "cta.subtitle": "Company intervention for product teams. Workshop edition for events. Same brutality, different packaging.",
-      "cta.company": "Company Intervention",
-      "cta.companyMicro": "Reply in 48h • Scoped in minutes",
-      "cta.event": "Event / Workshop Edition",
-      "cta.eventMicro": "Format-ready • Live diagnosis included",
+      "start.title": "How it starts",
+      "start.body": "You don't buy the nightmare blind. It starts with YASS: a closed 2-to-3-hour session with your technical team only. No slides. I interrogate, they answer, and the whole room maps how software actually ships.",
+      "start.small": "You walk out with a 1-page diagnosis, validated and signed by the team itself. The pain isn't sold by me. It's declared by them. You take that document upstairs as someone who got ahead of it, not someone who failed. Move to the 3 days and the YASS fee is credited against the intervention.",
+      "start.link": "See what the YASS session looks like →",
+
+      "price.title": "What it costs",
+      "price.subtitle": "Open pricing. The exact number comes out of YASS, after we see the real size of the team and the mess.",
+      "price.yassK": "Start here",
+      "price.yassT": "YASS · Diagnosis",
+      "price.yassV": "€1,500 to €2,500",
+      "price.yassB": "Closed 2-to-3h session. 1-page diagnosis. Fee credited if you move to the intervention.",
+      "price.nightK": "The intervention",
+      "price.nightT": "AppSec Nightmare · 3 days",
+      "price.nightV": "from €18,000",
+      "price.nightB": "What moves the price: number of squads and pipelines, stacks and environments in the autopsy, on-site or remote, depth of the diagnosis.",
+      "price.close": "Ends with MARIA running in your CI. First 30 days included.",
+
+      "cta.title": "Start with the diagnosis",
+      "cta.subtitle": "You can't fix what no one had the guts to look at. Start with a 20-minute scoping call. It leads to YASS, and YASS leads to the diagnosis.",
+      "cta.yass": "Start with YASS · diagnosis first",
+      "cta.yassMicro": "20-min scoping call • YASS fee credited against the intervention",
+      "cta.company": "I know the size. I want the 3-day intervention.",
+      "cta.companyMicro": "20-min scoping call • Ends with MARIA running in your CI",
+      "cta.event": "Event or talk?",
+      "cta.eventLink": "Workshop edition with live diagnosis.",
 
       "footer.tag": "Reality-first AppSec intervention",
       "footer.note": "Want this in your brand? Easy. Reality stays."
@@ -56,6 +77,8 @@
       "nav.days": "3 dias",
       "nav.statements": "Afirmações",
       "nav.leave": "Resultados",
+      "nav.start": "Como começa",
+      "nav.price": "Preço",
       "nav.cta": "Agendar",
 
       "hero.kicker": "AppSec de verdade, sem teatro",
@@ -89,12 +112,31 @@
       "leave.body": "Um choque de realidade nos seus times, processos e ferramentas em formato de baseline de segurança funcionando, um backlog de sobrevivência priorizado e um time capaz de não recriar o pesadelo nas próximas sprints.",
       "leave.small": "Entregáveis simples mas poderosos, acionáveis e feitos para sobreviver ao fim do contrato.",
 
-      "cta.title": "Escolha seu caminho",
-      "cta.subtitle": "Intervenção para empresas com produto em produção. Edição workshop para eventos. Mesma brutalidade, embalagem diferente.",
-      "cta.company": "Intervenção na Empresa",
-      "cta.companyMicro": "Resposta em até 48h • Escopo em minutos",
-      "cta.event": "Edição Evento / Workshop",
-      "cta.eventMicro": "Pronto para palco • Diagnóstico ao vivo",
+      "start.title": "Como começa",
+      "start.body": "Você não compra o pesadelo de olhos fechados. Começa com o YASS: uma sessão fechada de 2 a 3 horas, só com o seu time técnico. Sem slide. Eu interrogo, eles respondem, e a sala inteira mapeia como o software é entregue de verdade.",
+      "start.small": "Você sai com um diagnóstico de 1 página, validado e assinado pelo próprio time. A dor não é vendida por mim. É declarada por eles. Você leva esse documento para cima como quem se antecipou, não como quem falhou. Se decidir avançar para os 3 dias, o valor do YASS é creditado na intervenção.",
+      "start.link": "Veja como é a sessão YASS →",
+
+      "price.title": "Quanto custa",
+      "price.subtitle": "Preço aberto. O número fechado sai no YASS, depois de ver o tamanho real do time e da bagunça.",
+      "price.yassK": "Comece por aqui",
+      "price.yassT": "YASS · Diagnóstico",
+      "price.yassV": "R$3.000 a R$6.000",
+      "price.yassB": "Sessão fechada de 2 a 3h. Diagnóstico de 1 página. Valor creditado se avançar para a intervenção.",
+      "price.nightK": "A intervenção",
+      "price.nightT": "AppSec Nightmare · 3 dias",
+      "price.nightV": "a partir de R$60.000",
+      "price.nightB": "O que move o valor: número de squads e pipelines, stacks e ambientes na autópsia, presencial ou remoto, profundidade do diagnóstico.",
+      "price.close": "Termina com a MARIA rodando no seu CI. Os 30 primeiros dias inclusos.",
+
+      "cta.title": "Comece pelo diagnóstico",
+      "cta.subtitle": "Não dá para consertar o que ninguém teve coragem de olhar. Comece com uma conversa de escopo de 20 minutos. Dela sai o YASS, e do YASS sai o diagnóstico.",
+      "cta.yass": "Começar pelo YASS · diagnóstico primeiro",
+      "cta.yassMicro": "Conversa de escopo de 20 min • Valor do YASS creditado na intervenção",
+      "cta.company": "Já sei o tamanho. Quero a intervenção de 3 dias.",
+      "cta.companyMicro": "Conversa de escopo de 20 min • Termina com MARIA rodando no seu CI",
+      "cta.event": "Evento ou palestra?",
+      "cta.eventLink": "Edição workshop com diagnóstico ao vivo.",
 
       "footer.tag": "Intervenção AppSec sem teatro",
       "footer.note": "Tem coragem de encarar a realidade?"
@@ -188,7 +230,16 @@
   autoBtn.addEventListener('click', () => setAuto(!autoOn));
 
   // ===== Init =====
-  const preferred = (() => {
+  const saved = (() => {
     try { return localStorage.getItem('asn_lang'); } catch (_) { return null; }
   })();
-  setLang(preferred === 'pt' ? 'pt' : 'en');
+
+  const detectLang = () => {
+    const langs = navigator.languages && navigator.languages.length
+      ? navigator.languages
+      : [navigator.language || ''];
+    return langs.some(l => l.toLowerCase().startsWith('pt')) ? 'pt' : 'en';
+  };
+
+  const initial = (saved === 'pt' || saved === 'en') ? saved : detectLang();
+  setLang(initial);
